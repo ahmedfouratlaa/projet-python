@@ -121,17 +121,3 @@ projet python/
 
 
 Projet réalisé dans le cadre du cours **Imène Amira — 2025-2026**.
-
-
-
-<h1 style="color: blue;">📊 Analyse Automatisée des Ventes E-Commerce</h1>
-
-<h2 style="color: green;">1. 📝 Titre & Description</h2>
-
-<h2 style="color: green;">2. ⚙️ Prérequis</h2>
-
-<h2 style="color: green;">3. 🛠️ Installation</h2>
-
-<h2 style="color: green;">4. 🚀 Utilisation</h2>
-
-<h2 style="color: green;">5. 👤 Auteurs</h2>
