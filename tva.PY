@@ -1,10 +1,5 @@
 import csv
- 
-# ============================================================
-# ÉTAPE 4 : Calculer la TVA (20%) sur le CA Net
-# TVA = CA Net × 0.20
-# ============================================================
- 
+
 rows = []
  
 with open("etape3_ca_net.csv", mode="r") as fichier:

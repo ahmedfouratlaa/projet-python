@@ -1,9 +1,4 @@
 import csv
- 
-# ============================================================
-# ÉTAPE 5 : Afficher le CA Total de l'entreprise
-# ============================================================
- 
 ca_total = 0
  
 with open("etape4_tva.csv", mode="r") as fichier:

@@ -1,9 +1,6 @@
 import pandas as pd
 import csv
 import random
- 
-
- 
 with open("ventes.csv", mode="w", newline="") as fichier:
  
     writer = csv.writer(fichier)

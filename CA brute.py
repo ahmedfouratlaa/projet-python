@@ -1,10 +1,4 @@
 import csv
- 
-# ============================================================
-# ÉTAPE 2 : Calculer le Chiffre d'Affaires Brut
-# CA Brut = Prix × Quantité
-# ============================================================
- 
 rows = []
  
 with open("ventes.csv", mode="r") as fichier:
