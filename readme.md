@@ -1,123 +1,58 @@
-#  Analyse Automatisée des Ventes E-Commerce
+# Automatisation des Ventes
 
-> Script Python qui génère et analyse automatiquement des données de ventes
-> pour remplacer un fichier Excel devenu trop volumineux.
-
----
-
-## 1.  Titre & Description
-
-**Qu'est-ce que c'est ?**
-
-Ce projet est réalisé dans le cadre d'un TP Python. Une entreprise de e-commerce
-utilise un fichier Excel pour suivre ses ventes, mais le volume de données devient
-trop important pour un tableur classique.
-
-Ce script Python permet de :
-- Générer automatiquement un fichier `ventes.csv` avec des données aléatoires
-- Stocker les informations de chaque vente : ID, Prix, Quantité, Remise
-- Préparer les données pour une future analyse automatisée
+Analyse automatique des ventes à partir d'un fichier CSV.
 
 ---
 
-## 2.  Prérequis
+## 1. Titre & Description
+Ce projet est un notebook Jupyter développé en **Python**.  
+Il génère un fichier `ventes.csv`, effectue les calculs financiers  
+et visualise les résultats avec Matplotlib.
 
-**Logiciels nécessaires :**
-
-- [Python 3.x](https://www.python.org/downloads/) — langage de programmation utilisé
-- [VS Code](https://code.visualstudio.com/) — éditeur de code recommandé
-
-**Extensions VS Code recommandées :**
-
-- Python *(Microsoft)*
-- Rainbow CSV *(affiche le CSV en couleurs)*
-
-**Bibliothèques Python utilisées :**
-
-| Bibliothèque | Utilité | Incluse par défaut |
-|---|---|---|
-| `csv` | Lire et écrire des fichiers CSV | Oui |
-| `random` | Générer des données aléatoires | Oui |
-
->  Aucune installation de bibliothèque supplémentaire n'est nécessaire pour ce projet.
+Fonctionnalités :
+- Génération automatique de `ventes.csv`
+- Calcul du CA Brut, CA Net et TVA
+- Affichage du CA Total
+- Identification du meilleur produit
+- Visualisation avec graphiques Matplotlib
 
 ---
 
-## 3.  Installation
+## 2. Prérequis
+- Python 3.x
+- Jupyter Notebook
 
-**Étape 1 — Cloner ou télécharger le projet**
+---
 
+## 3. Installation
 ```bash
-git clone https://github.com/votre-utilisateur/projet-python.git
-```
-
-Ou télécharge le dossier manuellement et ouvre-le dans VS Code.
-
-**Étape 2 — Vérifier que Python est bien installé**
-
-```bash
-python --version
-```
-
-Tu dois voir quelque chose comme : `Python 3.14.0`
-
-**Étape 3 — Ouvrir le projet dans VS Code**
-
-```
-Fichier → Ouvrir le dossier → sélectionner "projet python"
+git clone https://github.com/ahmedfouratlaa/projet-python.git
+cd projet-python
+pip install -r requirements.txt
+jupyter notebook
 ```
 
 ---
 
-## 4.  Utilisation
+## 4. Utilisation
+Ouvrir le fichier `Analyse_Ventes.ipynb`  
+Exécuter les cellules **dans l'ordre** de haut en bas.
 
-**Lancer le script pour générer le fichier ventes.csv**
+Format du fichier `ventes.csv` généré :
 
-Dans le terminal VS Code (`Ctrl + '`) :
-
-```bash
-python ventes.py
-```
-
-**Résultat attendu dans le terminal :**
-
-```
-Fichier ventes.csv généré avec succès !
-Il contient 20 lignes + 1 ligne d'en-tête.
-Colonnes : ID, Prix, Quantite, Remise
-```
-
-**Fichier généré — exemple de contenu :**
-
-```
 ID,Prix,Quantite,Remise
-101,381.56,5,0.27
-102,272.61,8,0.06
-103,345.58,7,0.18
-...
-120,282.11,10,0.16
-```
 
-**Structure du projet :**
+1,150.50,3,10
 
-```
-projet python/
-│
-├── ventes.py       ← script principal à exécuter
-├── ventes.csv      ← fichier généré automatiquement
-└── README.md       ← documentation du projet
-```
+2,200.00,2,5
+
 
 ---
 
-## 5.  Auteurs:
-***Adem Aroud**
+## 5. Auteurs
+- Eya Ben Rebah
+- Ahmed Fourat Laajimi
+- Adem Aroud
+- Khalil Mohamed Chihaoui
 
-***Ahmed Fourat Laajimi**
-
-***Eya Ben Rebah**
-
-***Mohamed Khalil Chihaoui**
-
-
-Projet réalisé dans le cadre du cours **Imène Amira — 2025-2026**.
+**Encadrante : Imene Amira**
