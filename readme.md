@@ -26,8 +26,10 @@ Fonctionnalités :
 
 ## 3. Installation
 ```bash
+# Cloner le projet
 git clone https://github.com/ahmedfouratlaa/projet-python.git
 cd projet-python
+
 # Créer l'environnement virtuel
 python -m venv venv
 
