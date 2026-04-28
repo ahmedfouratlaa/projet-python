@@ -28,6 +28,16 @@ Fonctionnalités :
 ```bash
 git clone https://github.com/ahmedfouratlaa/projet-python.git
 cd projet-python
+# Créer l'environnement virtuel
+python -m venv venv
+
+# Activer l'environnement virtuel
+# Windows :
+venv\Scripts\activate
+# Mac/Linux :
+source venv/bin/activate
+
+# Installer les dépendances
 pip install -r requirements.txt
 jupyter notebook
 ```
